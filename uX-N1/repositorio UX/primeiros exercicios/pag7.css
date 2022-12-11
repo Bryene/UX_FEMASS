@@ -1,0 +1,34 @@
+H2{
+
+    color:rgb(25, 104, 15);
+    border:thin;
+    border-bottom: 1px dashed #a5cc16;
+
+}
+
+H4{
+
+    color:rgb(68, 0, 255);
+    border-left: 3px solid #16cc53;
+    border: medius;
+    
+}
+
+H6{
+
+    color:rgb(245, 126, 185);
+    letter-spacing:10px;
+    word-spacing:30px;
+}
+
+H3{
+    border-width: 50px;
+    border: outset #e08e40;
+    line-height: 60px;  
+
+}
+H5{
+    background-color:aqua;
+    text-align:right;
+    border: 6px groove #db40e0;
+}

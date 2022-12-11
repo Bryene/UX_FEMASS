@@ -1,0 +1,32 @@
+H2{
+
+    color:rgb(19, 20, 19);
+    border:thin;  
+}
+
+ul { list-style-type: decimal-leading-zero;
+    }
+
+H4{
+    color:rgb(247, 0, 255);
+   
+}
+
+ol{ list-style-type:lower-roman;}
+    
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid rgb(31, 147, 214);
+  
+}
+
+tr:nth-child(even) {background-color: #f76565}
+
+img {
+    border-radius: 100%;
+    Rounded: circle 1000px;
+}

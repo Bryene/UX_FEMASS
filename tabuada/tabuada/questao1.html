@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questao 1</title>
+</head>
+
+<body>
+    <script>
+        function mudaCor(novaCor) {
+            var elem = document.getElementById("para1");
+            elem.style.color = novaCor;
+        }
+    </script>
+    <h1 id="para1">Altere minha cor clicando no botão</h1>
+    <button onclick="mudaCor('blue');">Azul</button>
+    <button onclick="mudaCor('red');">Vermelho</button>
+
+    <script>
+        function mudaCor2(novaCor2) {
+            var elem = document.getElementById("para2");
+            elem.style.color = novaCor2;
+        }
+    </script>
+    <h1 id="para2">Altere minha cor clicando no botão</h1>
+    <button onclick="mudaCor2('pink');">Rosa</button>
+    <button onclick="mudaCor2('red');">Vermelho</button>
+
+    <script>
+        function mudaCor3(novaCor3) {
+            var elem = document.getElementById("para3");
+            elem.style.color = novaCor3;
+        }
+    </script>
+    <h1 id="para3">Altere minha cor clicando no botão</h1>
+    <button onclick="mudaCor3('pink');">Rosa</button>
+    <button onclick="mudaCor3('yellow');">amarelo</button>
+
+    <h1 id="cor">Altere minha cor clicando no botão</h1>
+    <form name="cor">
+        <input type="text" id="campo" /><br><br>
+        <input type="button" id="bt" value="Cor" />
+    </form>
+    <br>
+    <p id="Cores"></p>
+    <script>
+</body >
+
+</html >

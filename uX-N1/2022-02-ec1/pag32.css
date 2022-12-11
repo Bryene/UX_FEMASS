@@ -1,0 +1,11 @@
+p:not(.pri) {
+  color: white;
+}
+
+body {
+  background-color: #000000;
+}
+
+p.seg::first-line {
+  font-style: italic;
+}

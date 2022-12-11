@@ -1,0 +1,27 @@
+H1{
+    
+    text-align:center;
+    border-bottom: 6px groove #f06e17;
+    border-left: 6px groove #f06e17;
+    border-right: 6px groove #f06e17;
+   
+}
+
+
+h4::first-letter {
+    font-size: 200%;
+    
+    
+}
+
+H3{
+   
+    text-align:left;
+    border: 6px double #857e85;
+    border-radius: 30px;
+}
+
+ul { list-style-type:none;
+    list-style-image:url(chapeu-formatura.jfif);}
+
+    

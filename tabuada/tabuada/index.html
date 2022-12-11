@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Prova n2</title>
+
+	<style type="text/css">
+		table {
+			position: relative;
+			display: block;
+			margin: 0 auto;
+			width: 300px;
+			text-align: center;
+			border-radius: 10px;
+		}
+
+		button {
+			border-radius: 5px;
+			border: none;
+			width: 100px;
+			height: 25px;
+			font-weight: bold;
+			color: white;
+		}
+
+		.botao1 {
+			background-color: #069;
+		}
+
+		.botao2 {
+			background-color: red;
+		}
+
+		.botao3 {
+			background-color: rgb(0, 204, 255);
+		}
+
+		.botao4 {
+			background-color: rgb(60, 255, 0);
+		}
+	</style>
+
+	<script type="text/javascript">
+		function calcular() {
+			var num = parseFloat(document.getElementById("num").value);
+			for (var i = 1; i <= 10; i++) {
+				var total = i * num;
+				document.getElementById("resposta" + i).innerHTML = num + "*" + i + "=" + total;
+			}
+		}
+
+		function calcular2() {
+
+			var num = parseFloat(document.getElementById("num").value);
+			for (var i = 1; i <= 10; i++) {
+				var total2 = i + num;
+				document.getElementById("resposta" + i).innerHTML = num + "+" + i + "=" + total2;
+
+			}
+		}
+		function calcular3() {
+			var num = parseFloat(document.getElementById("num").value);
+			for (var i = 1; i <= 10; i++) {
+				var total3 = i - num;
+				document.getElementById("resposta" + i).innerHTML = num + "-" + i + "=" + total3;
+			}
+		}
+	</script>
+</head>
+
+<body>
+
+	<form onsubmit="return false">
+		<table>
+			<legend>Tabuada</legend>
+			<label>Digite um Numero</label>&nbsp<input type="number" id="num" min="0"><br><br>
+			<p>Resultado:</p>
+			<p id="resposta1">&nbsp;</p><br>
+			<p id="resposta2">&nbsp;</p><br>
+			<p id="resposta3">&nbsp;</p><br>
+			<p id="resposta4">&nbsp;</p><br>
+			<p id="resposta5">&nbsp;</p><br>
+			<p id="resposta6">&nbsp;</p><br>
+			<p id="resposta7">&nbsp;</p><br>
+			<p id="resposta8">&nbsp;</p><br>
+			<p id="resposta9">&nbsp;</p><br>
+			<p id="resposta10">&nbsp;</p><br>
+
+			<button class="botao1" onclick="calcular();">Multiplicacao</button>
+			<button class="botao2" onclick="calcular2();">Soma</button>
+			<button class="botao3" onclick="calcular3();">Subtracao</button>
+			<button class="botao4" onclick="window.location.reload();">APAGAR</button>
+
+
+		</Table>
+	</form>
+
+
+
+</body>
+
+</html>

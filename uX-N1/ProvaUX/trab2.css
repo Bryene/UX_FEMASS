@@ -1,0 +1,32 @@
+
+h4::first-letter {
+    font-size: 200%;
+    color: #f01796;
+     
+}
+h4{
+    color:#1664da;
+}
+
+
+H3{
+   
+    text-align:left;
+    border: 6px double #857e85;
+    border-radius: 30px;
+}
+
+p{
+    color:aqua;
+}
+
+p:not(.pri) {
+    color: rgb(20, 48, 207);
+  }
+  
+ 
+  
+  p.seg::first-line {
+    font-style: italic;
+  }
+  

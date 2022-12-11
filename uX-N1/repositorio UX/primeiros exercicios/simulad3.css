@@ -1,0 +1,36 @@
+img {
+    border-radius: 100%;
+   
+}
+
+h1::first-line{
+    font-size: 80px;
+    font-family: Comic;
+    text-align:center;
+}
+
+H3{
+
+    color:rgb(12, 14, 13);
+    border:thin;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    text-align:right;
+  
+
+}
+
+h4{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+ul{
+
+    text-align: left;
+}
+
+
+  
+  
+

@@ -1,0 +1,58 @@
+img {
+    border-radius: 100%;
+   ;
+}
+
+
+
+
+H1{
+    
+    text-align:center;
+    border-bottom: 6px groove #f06e17;
+    border-left: 6px groove #f06e17;
+    border-right: 6px groove #f06e17;
+    
+   
+}
+
+h1::first-line{
+    font-size: 50px;
+    font-family: Comic;
+}
+
+
+
+h2::first-letter {
+    font-size: 200%;    
+}
+
+H3{
+    color:rgb(38, 34, 49);
+    text-align:left;;
+}
+
+ul { list-style-type: decimal;
+}
+
+   
+table {
+    border-collapse: collapse;
+}
+
+h3 {
+    border: 4px double #857e85;
+    border-radius: 10px;
+}
+
+
+.active{
+    background-color: #2215cc;
+    color:rgb(104, 101, 109);
+    
+}
+
+H3:not(.active) {
+    color: rgb(14, 12, 13);
+    
+    }

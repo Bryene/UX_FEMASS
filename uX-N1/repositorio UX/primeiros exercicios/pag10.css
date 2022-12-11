@@ -1,0 +1,36 @@
+H4::first-line {
+    font-style: italic;}
+
+
+        .femass{
+          
+            transform: scale(0.5);
+            transform: rotate(20deg);
+            text-align: left;
+         
+       
+            }
+          
+            .femassII{
+            
+                transform: scale(0.5);
+                transform: rotate(50deg);
+                text-align:center;
+                transform:skewX(50deg);
+              
+                }
+              
+                .femassIII{
+          
+                    transform: scale(0.5);
+                    transform: rotate(30deg);
+                    text-align: right;
+                    transform:skewY(30deg);
+                    
+                    }
+        
+
+            .especial {
+                transform: scale(0.7); /* Equal to scaleX(0.7) scaleY(0.7) */
+                background-color: rgb(41, 156, 223);
+              }

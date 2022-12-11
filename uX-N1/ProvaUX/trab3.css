@@ -1,0 +1,29 @@
+img {
+    border-radius: 100%;
+   ;
+}
+
+
+
+h1::first-line{
+    font-size: 50px;
+    font-family: Comic;
+}
+
+
+
+h3::first-letter {
+    font-size: 200%;    
+}
+
+
+
+
+
+.active{
+    background-color: #2215cc;
+    color:rgb(104, 101, 109);
+    
+}
+
+

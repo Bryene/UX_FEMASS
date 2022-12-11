@@ -1,0 +1,48 @@
+img {
+    border-radius: 100%;
+   ;
+}
+
+H1{
+    
+    text-align:center;
+    border-bottom: 6px groove #f06e17;
+    border-left: 6px groove #f06e17;
+    border-right: 6px groove #f06e17;
+    
+   
+}
+
+h1::first-line{
+    font-size: 50px;
+    font-family: Comic;
+}
+
+
+
+h3::first-letter {
+    font-size: 200%;    
+}
+
+
+
+ul {   border: 4px double #857e85;
+       border-radius: 10px;   
+       
+}
+
+
+table {
+    border-collapse: collapse;
+    
+}
+
+
+
+.active{
+    background-color: #2215cc;
+    color:rgb(104, 101, 109);
+    
+}
+
+
